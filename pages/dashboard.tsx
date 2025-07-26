@@ -51,7 +51,7 @@ function DashboardPage() {
     }
   };
 
-  const widgetMap: Record<string, JSX.Element> = {
+  const widgetMap: Record<string, React.ReactElement> = {
     tasks: (
       <motion.div
         key="tasks"
