@@ -7,7 +7,7 @@ A modern, responsive developer productivity dashboard with an AI assistant, drag
 
 ## 🚀 Live Demo
 
-👉 [VIEW LIVE HERE](LIVE_DEPLOYMENT_LINK)
+👉 View live project on vercel here >> 
 
 ---
 
@@ -110,12 +110,6 @@ A modern, responsive developer productivity dashboard with an AI assistant, drag
 
 ---
 
-## 📷 Screenshots
-
-(SCREENSHOTS_HERE)
-
----
-
 ## 📄 License
 
 MIT
@@ -124,4 +118,4 @@ MIT
 
 ## 🙋 Author
 
-Built with ❤️ by YOUR_NAME
+Built with ❤️ by Kolade Oyeyipo
