@@ -1,7 +1,7 @@
 // pages/assistant.tsx
 import { useState } from "react";
 import withAuth from "../utils/withAuth";
-import { Send, Loader2 } from "lucide-react"; // ✅ Lucide icons
+import { Send, Loader2 } from "lucide-react";
 import { AnimatePresence, motion } from "framer-motion";
 
 export default withAuth(function AssistantPage() {
@@ -16,17 +16,20 @@ export default withAuth(function AssistantPage() {
       setError("Please enter a message.");
       return;
     }
+
     setError("");
     setLoading(true);
+    const userMessage = input;
 
-    // Simulate AI reply delay
+    setMessages((prev) => [...prev, `🧑 You: ${userMessage}`]);
+    setInput("");
+
+    // Simulated AI response (since backend is removed)
     setTimeout(() => {
       setMessages((prev) => [
         ...prev,
-        `🧑 You: ${input}`,
-        `🤖 AI: This feature is still in development, thank you!`,
+        `🤖 AI: This feature is currently unavailable without backend integration.`,
       ]);
-      setInput("");
       setLoading(false);
     }, 800);
   };
