@@ -7,7 +7,7 @@ A modern, responsive developer productivity dashboard with an AI assistant, drag
 
 ## 🚀 Live Demo
 
-👉 View live project on vercel here >> 
+👉 View live project on vercel here >> dev-pulse-ebon.vercel.app
 
 ---
 
@@ -68,8 +68,8 @@ A modern, responsive developer productivity dashboard with an AI assistant, drag
 1. **Clone the repo**
 
    ```bash
-   git clone GITHUB_REPOSITORY_URL
-   cd devpulse
+   git clone https://github.com/jaykaynation/DevPulse.git
+   cd DevPulse
    ```
 
 2. **Install dependencies**
@@ -94,9 +94,9 @@ A modern, responsive developer productivity dashboard with an AI assistant, drag
 ## 🧪 Usage Guide
 
 - **Dashboard:**
-  - Add new widgets and items
+  - Add new items to the widgets
   - Drag to rearrange widgets
-  - Clear items with the delete icon
+  - Clear items in the notification with the delete icon
 
 - **Assistant:**
   - Type messages and get intelligent responses
